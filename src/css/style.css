@@ -1,0 +1,83 @@
+/* Container da grid */
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+/* Estilização de cada card */
+.list-pokemon {
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list-pokemon:hover {
+    transform: scale(1.05);
+}
+
+/* Estilização do conteúdo do Pokémon */
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.pokemon .number {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.img-pokemon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.pokemon .name {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.btn{
+    margin: 2rem;
+    background-color: #C22E28 !important;
+    border-color: #000 !important;
+    transition: transform 0.3s ease-out;
+
+}
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+.normal { background-color: #A8A77A; }
+.fire { background-color: #EE8130; }
+.water { background-color: #6390F0; }
+.electric { background-color: #F7D02C; }
+.grass { background-color: #7AC74C; }
+.ice { background-color: #96D9D6; }
+.fighting { background-color: #C22E28; }
+.poison { background-color: #A33EA1; }
+.ground { background-color: #E2BF65; }
+.flying { background-color: #A98FF3; }
+.psychic { background-color: #F95587; }
+.bug { background-color: #A6B91A; }
+.rock { background-color: #B6A136; }
+.ghost { background-color: #735797; }
+.dragon { background-color: #6F35FC; }
+.dark { background-color: #705746; }
+.steel { background-color: #B7B7CE; }
+.fairy { background-color: #D685AD; }
