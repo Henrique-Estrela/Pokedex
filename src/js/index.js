@@ -1,5 +1,5 @@
 let offset = 0;
-const limit = 20;
+const limit = 18;
 const maxPage = 1304
 const container = document.querySelector(".container-grid");
 const btnMore = document.querySelector(".readMore");
